@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-nat-bg: #F9F7F2;
+  --color-nat-panel: #E9E4D9;
+  --color-nat-text-dark: #2D2926;
+  --color-nat-text-body: #4A443F;
+  --color-nat-text-muted: #8C7B6A;
+  --color-nat-text-light: #A69D91;
+  --color-nat-border: #D9D2C3;
+  --color-nat-accent: #BC6C25;
+  --color-nat-accent-green: #606C38;
+  --color-nat-accent-dark: #283618;
+
+  --font-sans: 'Noto Sans TC', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Noto Serif TC', ui-serif, Georgia, serif;
+}
+
+body {
+  @apply bg-[#F9F7F2] text-[#4A443F] font-serif;
+}
